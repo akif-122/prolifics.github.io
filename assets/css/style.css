@@ -1,0 +1,945 @@
+/* open sans font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    transition: all 0.4s ease;
+}
+body{
+    min-height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+
+}
+ 
+a,a:hover{
+    text-decoration: none;
+}
+.wrapper{
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+.header{
+    position: relative;
+    width: 100%;
+    padding-top: 2rem;
+}
+
+.header .header-bg-video{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+/* 
+====================================
+    NAVBAR SECTION START
+====================================
+*/
+
+.header-nav #mynav > ul > li > a{
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 1rem 1.8rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+
+.header-nav #mynav  ul  li  a:hover{
+    color: #ff9e1c;
+}
+.header-nav #mynav  ul  li  a.p-btn-link{
+    padding: 1rem 2.8rem;
+    border-radius: 40px;
+    background-color: #ff9e1c;
+    font-weight: 500;
+    position: relative;
+    border: 1px solid #ff9e1c;
+    transition: all .5s ease;
+    
+}
+.header-nav #mynav  ul  li  a.p-btn-link:hover{
+    box-shadow: inset 0 0 0 25px #ccd1da;
+}
+
+
+.header-nav #mynav  ul li.dropdown .dropdown-menu{
+    left: 15px;
+    width: 250px;
+    padding: 0;
+    background-color: rgba(12, 62, 115, 0.9);
+   
+}
+.header-nav #mynav  ul  li.dropdown:hover .dropdown-menu{
+    display: block;
+    z-index: 10;
+    
+} 
+.header-nav #mynav  ul  li.dropdown:hover .dropdown-menu ul li a{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #fff;
+    border-bottom: 1px solid #155293;
+    padding: 1.5rem;
+    display: block;
+}
+.header-nav #mynav  ul  li.dropdown:hover .dropdown-menu ul li a:hover{
+    color: #ff9e1c;
+
+}
+/* 
+====================================
+    NAVBAR SECTION END
+====================================
+*/
+
+
+/* 
+====================================
+   HEADER CONTENT SECTION START
+====================================
+*/
+.header-content{
+    margin-top: 5rem;
+    padding-top: 8rem;
+}
+
+.header-content .header-text h1{
+    color: #ffff;
+    font-family: 'Tahoma', sans-serif;
+    font-size: 5.4rem;
+    line-height: 1.2em;
+    font-weight: 800;
+
+}
+.header-content .header-text p{
+    font-size: 2rem;
+    margin: 0 auto;
+    color: #fff;
+    width: 65%;
+}
+
+.header-content .header-text a{
+    display: inline-block;
+    font-size: 2rem;
+    color: #000;
+    background-color: #ff9e1c;
+    border-radius: 40px;
+    padding: 1.3rem 4rem;
+    font-weight: 600;
+    margin: 1.5rem 0;
+}
+
+.header-content .header-text a:hover{
+    color: #fff;
+    background-color: #155293;
+}
+   
+
+
+/* 
+====================================
+   HEADER CONTENT SECTION END
+====================================
+*/
+
+/* 
+====================================
+  HEADER COUNTER SECTION START
+====================================
+*/
+.header-counter-wrap{
+    background: linear-gradient(to right, #1b3d6b 0%,#6cc0d9 47%,#6cc0d9 58%,#f59d01 100%);
+    border-radius: 2rem;
+    box-shadow: 0px 30px 30px rgb(0 0 0 / 20%);
+    padding: 1.5rem;
+    transform: translateY(80px);
+}
+
+.header-counter-wrap .counter-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.header-counter-wrap .counter-box span{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.header-counter-wrap .counter-box .devider{
+    position: relative;
+    width: 100%;
+    height: 0px;
+    border-top: 1px solid #fff;
+    margin: 2rem 0;
+}
+.header-counter-wrap .counter-box .devider:after{
+    content: "";
+    width: 15px;
+    height: 10px;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+}
+.header-counter-wrap .counter-box h5{
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.8rem;
+    padding: 0 .5rem;
+}
+/* 
+====================================
+  HEADER COUNTER SECTION END
+====================================
+*/
+
+
+/* 
+====================================
+ ABOUT US SECTION START
+====================================
+*/
+.aboutUs{
+    background: url("../img/pp-home-ready2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% cover;
+    background-position: center;
+    padding: 5rem 1.5rem;
+    padding-top: 15rem;
+}
+.about-content{
+    width: 80%;
+    margin: auto;
+}
+.aboutUs .section-heading{
+    margin-bottom: 3rem;
+}
+.aboutUs .section-heading h2{
+    color: #fff;
+    font-size: 5rem;
+    line-height: 1.2em;
+    font-weight: 800;
+    margin: auto;
+}
+.aboutUs .about-text{
+    width: 84%;
+    margin: auto;
+}
+.aboutUs .about-text p{
+    font-size: 2rem;
+    color: #fff;
+    margin: 2.8rem 0;
+}
+
+.aboutUs .about-text a{
+    display: inline-block;
+    font-size: 2rem;
+    color: #000;
+    background-color: #ff9e1c;
+    border-radius: 40px;
+    padding: 1.3rem 4rem;
+    font-weight: 600;
+    margin: 1.5rem 0;
+    text-transform: uppercase;
+}
+.aboutUs .about-text a:hover{
+    color: #fff;
+    background-color: #155293;
+}
+   
+/* 
+====================================
+ ABOUT US SECTION END
+====================================
+*/
+
+
+   
+/* 
+====================================
+ SERVICES SECTION START
+====================================
+*/
+.service-section{
+    background: url("../img/pp-home-services.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    margin-top: 0;
+    padding: 2rem 0;
+}
+
+
+.service-section .section-heading{
+    margin: 5rem 0;
+    text-align: center;
+}
+.service-section .section-heading h2{
+    font-size: 6.5rem;
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+.service-section .section-heading p{
+    color: #fff;
+    font-size: 2.2rem;
+    letter-spacing: 0;
+    line-height: 1.3em;
+    font-weight: 400;
+}
+.service-section .service-cards{
+    position: relative;
+    width: 95%;
+    margin: auto;
+}
+.service-section .service-cards .service-card {
+    background-color: #fff;
+    padding: 1.5rem;
+    text-align: center;
+    opacity: .6;
+
+}
+.service-section .service-cards .service-card > img{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.service-section .service-cards .service-card h3{
+    color: #040617;
+    font-weight: 800;
+    /* font-size: 1.8vw; */
+    font-size: 30px;
+    line-height: 34px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    margin-bottom: 1.2vw!important;
+}
+.service-section .service-cards .service-card p{
+    color: #4a4b4f;
+    font-size: 1.5rem;
+    line-height: 2.6rem;
+    font-style: normal;
+    font-weight: 500;
+    margin: 1.5rem 0;
+    padding: 0 .5rem;
+
+}
+.service-section .service-cards .service-card a{
+    display: inline-block;
+    line-height: 2.2rem;
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 0.7rem 1.5rem;
+    font-weight: 600;
+    color: #555 ;
+    background-color: #a0cbe9;
+    border-radius: 2rem;
+    margin: 1rem auto;
+    margin-top: 2rem;
+
+}
+.service-section .service-cards .service-card a:hover{
+    color: #155293 ;
+}
+.service-section .owl-item.active.center .service-card{
+    opacity: 1;
+}
+
+
+.service-section .owl-nav button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+ 
+}
+.service-section .owl-nav button.owl-prev{
+    left: -80px;
+}
+.service-section .owl-nav button.owl-next{
+    right: -80px;
+}
+.service-section .owl-nav button span{
+    display: inline-block;
+    line-height: 1;
+    font-size: 6rem;
+    color: #fff;
+}
+.service-section .owl-nav button:hover{
+    background: transparent !important;
+}
+/* 
+====================================
+ SERVICES SECTION END
+====================================
+*/
+
+
+/* 
+====================================
+ CUSTOMER SECTION START
+====================================
+*/
+.customer{
+    margin: 2rem 0;
+}
+.customer .customer-content{
+    margin: 4rem 0;
+
+}
+.customer .customer-content h2{
+    font-size: 5rem;
+    color: #000;
+    text-align: center;
+    font-weight: 800;
+}
+.customer .customer-content p{
+    font-size: 1.8rem;
+    text-align: center;
+    color: #000;
+    margin: 0 auto;
+}
+
+
+.customer-review{
+    background: #f0f7fb;
+    padding: 5rem 1rem;
+}
+.customer-slider{
+    width: 90%;
+    margin: auto;
+ 
+}
+
+.customer-review .owl-carousel .owl-stage-outer{
+    overflow: visible;
+} 
+
+.customer-review .owl-carousel .owl-nav.disabled{
+    display: block;
+}
+.customer-review .owl-carousel .owl-nav button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+   
+ 
+}
+.customer-review .owl-carousel .owl-nav button.owl-prev{
+    left: 0;
+}
+.customer-review .owl-carousel .owl-nav button.owl-next{
+    right: 0;
+}
+.customer-review .owl-carousel .owl-nav button span{
+    display: inline-block;
+    line-height: 1;
+    font-size: 6rem;
+    color: #4297d2;
+}
+.customer-review .owl-carousel .owl-nav button:hover{
+    background: transparent !important;
+}
+
+.customer-review .customer-box-content{
+    position: relative;
+    text-align: center;
+}
+.customer-review .customer-box-content .customer-box-img img{
+    max-width: 250px;
+    margin: auto;
+}
+
+.customer-review .customer-box-content .customer-box-text{
+    text-align: center;
+    padding: 1.5rem;
+    padding-top: 25px;
+    width: 600px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    border: 1px solid #4297d2;
+    display: none;
+}
+.center .customer-box-text{
+    display: block !important;
+}
+.customer-review .customer-box-content .customer-box-text:after{
+    content: "";
+    position: absolute;
+    top: -6px;
+    left: 50%;
+    transform: rotate(45deg) translateX(-50%);
+    width: 35px;
+    height: 35px;
+    border: 2px solid #4297d2;
+}
+.customer-review .customer-box-content .customer-box-text:before{
+    content: "";
+    background: #fff;
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: rotate(45deg) translateX(-50%);
+    width: 35px;
+    height: 35px;
+    z-index: 1;
+}
+
+.customer-review .customer-box-content .customer-box-text img{
+    width: 30px;
+    margin: auto !important;
+    
+}
+
+.customer-review .customer-box-content .customer-box-text p{
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin: 2rem 0;
+}
+.customer-review .customer-box-content .customer-box-text h4{
+    color: #4a4b4f;;
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+
+.customer-review .customer-box-content .customer-box-text a{
+    display: inline-block;
+    line-height: 2.2rem;
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 0.7rem 3.5rem;
+    font-weight: 600;
+    color: #555 ;
+    background-color: #a0cbe9;
+    border-radius: 2rem;
+    margin: 1rem auto;
+    margin-top: 2rem;
+
+}
+.customer-review .customer-box-content .customer-box-text a:hover{
+    color: #155293 ;
+}
+/* 
+====================================
+ CUSTOMER SECTION END
+====================================
+*/
+
+
+
+/* 
+====================================
+ TAB SECTION START
+====================================
+*/
+.tab-section{
+    margin-top: 330px;
+    background-color: #b3d5ed;
+}
+
+.tab-section .tab ul{
+    display: flex;
+    border: none;
+    border-top: 3px solid #1f2a5e;
+}
+.tab-section .tab ul li{
+    width: calc(100% / 4);
+}
+
+.tab-section .tab ul li button{
+    width: 100%;
+    line-height: 2.2rem;
+    font-size: 2.2rem;
+    display: block;
+    padding: 4rem 0.5rem;
+    background-color: #f5f5f6;
+    color: #000;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    border-right: 1px solid rgba(0,0,0,0.1);
+}
+.tab-section .tab ul li button:hover{
+    color: #0f6fa3;
+}
+.tab-section .tab ul li button.active{
+    color: #000;
+    background-color: #4297d2;
+}
+.tab-text{
+    padding: 2.5rem 0;
+}
+
+.tab-text img{
+    width: 95%;
+    text-align: center;
+}
+
+.tab-text p{
+    font-size: 1.8rem;
+    color: #333;
+    line-height: 1.3em;
+    margin: 1.5rem 0;
+}
+
+.tab-text  a{
+    display: inline-block;
+    font-size: 2rem;
+    color: #333;
+    background-color: #ff9e1c;
+    border-radius: 40px;
+    padding: 1.3rem 4rem;
+    font-weight: 600;
+    margin: 1.5rem 0;
+}
+
+.tab-text  a:hover{
+    color: #fff;
+    background-color: #155293;
+}
+
+
+/* 
+====================================
+ TAB SECTION END
+====================================
+*/
+/* 
+====================================
+PARTNER SECTION START
+====================================
+*/
+.partner{
+    background-color: #f0f7fb;
+    padding: 4rem 0;
+}
+.partner .section-header{
+    width: 85%;
+    margin: 2rem  auto;
+}
+.partner .section-header h2{
+    color: #040617;
+    font-size: 5rem;
+    line-height: 1.2em;
+    font-weight: 800;
+    margin: 1.5rem 0;
+
+}
+
+.partner .section-header p{
+    font-size: 1.8rem;
+    color: #000;
+}
+.partner-slider{
+    width: 80%;
+    margin: 3rem auto;
+}
+
+
+.partner-slider.owl-carousel .owl-nav.disabled{
+    display: block;
+}
+.partner-slider.owl-carousel .owl-nav button{
+    position: absolute;
+    top: 43%;
+    transform: translateY(-50%);
+   
+ 
+}
+.partner-slider.owl-carousel .owl-nav button.owl-prev{
+    left: -80px;
+}
+.partner-slider.owl-carousel .owl-nav button.owl-next{
+    right: -80px;
+}
+.partner-slider.owl-carousel .owl-nav button span{
+    display: inline-block;
+    line-height: 1;
+    font-size: 6rem;
+    color: #4297d2;
+}
+.partner-slider.owl-carousel .owl-nav button:hover{
+    background: transparent !important;
+}
+
+.partner-slide img{
+    width: 80%;
+    text-align: center;
+}
+
+
+/* 
+====================================
+PARTNER SECTION END
+====================================
+*/
+
+
+/* 
+====================================
+INDUSTRY SECTION START
+====================================
+*/
+.industry-section{
+    background: url("../img/pp-bg-industries.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    padding: 1rem 0;
+}
+
+.industry-section .section-header{
+    width: 90%;
+    margin: 2rem  auto;
+    text-align: center;
+    padding: 2rem 1.5rem;
+}
+.industry-section .section-header h2{
+    color: #fff;
+    font-size: 5rem;
+    line-height: 1.2em;
+    font-weight: 800;
+    margin: 1.5rem 0;
+
+}
+
+.industry-section .section-header p{
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+
+.industry-section .industry-detail{
+     margin: 3rem 0;
+}
+.industry-section .industry-detail .industry-detail-box .i-d-img{
+    position: relative;
+    z-index: 1;
+}
+.industry-section .industry-detail .industry-detail-box:first-child .i-d-img:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 14px;
+    height: 14px;
+    background: #0f6fa3;
+    border: 3px solid #0b174f;
+    border-radius: 50%;
+}
+.industry-section .industry-detail .industry-detail-box:last-child .i-d-img:before{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 14px;
+    height: 14px;
+    background: #0f6fa3;
+    border: 3px solid #0b174f;
+    border-radius: 50%;
+}
+.industry-section .industry-detail .industry-detail-box .i-d-img:after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 3px;
+    background: #0b174f;
+    z-index: -1;
+}
+.industry-section .industry-detail .industry-detail-box .i-d-img img{
+    width: 80%;
+    border-radius: 50%;
+}
+
+.industry-section .industry-detail .industry-detail-box h3{
+    color: #fff;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 1.2em;
+    text-align: center;
+    margin: 2rem 0;
+}
+/* 
+====================================
+INDUSTRY SECTION END
+====================================
+*/
+
+/* 
+====================================
+CONTACT SECTION START
+====================================
+*/
+.contact-section{
+    padding: 2rem 1.5rem;
+    background: linear-gradient(90deg,rgba(11,23,79,1) 0%,rgba(4,6,23,1) 100%);
+}
+.contact-section .section-header{
+    margin: 5rem 0;
+    text-align: center;
+}
+.contact-section .section-header h2{
+    color: #fff;
+    font-size: 5.6rem;
+    line-height: 1.2em;
+    font-weight: 800;
+    margin: 1.5rem 0;
+
+}
+
+.contact-section .section-header p{
+    font-size: 1.8rem;
+    color: #fff;
+    width: 70%;
+    margin: auto;
+}
+.contact-us {
+    padding: 3rem 0;
+}
+.contact-us .form-group{
+    margin: 1rem 0;
+}
+.contact-us label{
+    font-size: 1.4rem;
+    color: #fff;
+}
+.contact-us label em{
+    font-size: 1.5rem;
+    color: red;
+    transform: translateY(-4px);
+    display: inline-block;
+}
+.contact-us input{
+    height: 40px;
+    font-size: 1.6rem;
+    padding: 1.5rem;
+}
+
+.contact-us input{
+    height: 40px;
+    font-size: 1.6rem;
+    padding: 1.5rem;
+}
+
+.form-agree p{
+    font-size: 1.4rem;
+    color: #fff;
+    margin-bottom: 3rem;
+}
+.form-agree p a{
+    font-size: 1.3rem;
+    line-height: 1.5;
+    color: #0f6fa3;
+    text-decoration: underline;
+}
+.form-agree p a:hover{
+    color: #f59d01;
+}
+.chk-agree input{
+    width: 15px;
+    transform: translateY(-4px);
+}
+
+.contact-btn{
+    text-align: center;
+    width: 100%;
+}
+.contact-btn button{
+    background: #ff9e1c;
+    border: 1px solid #ff9e1c;
+    color: #ffffff;
+    font-size: 1.6rem;
+    line-height: 17px;
+    padding: 1.5rem 2.5rem;
+    border-radius: .5rem;
+}
+/* 
+====================================
+CONTACT SECTION END
+====================================
+*/
+/* 
+====================================
+FOOTER SECTION START
+====================================
+*/
+.footer{
+    background: #134371;;
+    padding-top: 3rem;
+}
+
+.footer h5{
+    font-size: 2rem;
+    line-height: 27px;
+    font-weight: 700;
+    text-transform: none;
+    margin-bottom: 1.5rem;
+    font-style: normal;
+    color: #81b850;
+}
+.footer p{
+    font-size: 1.4rem;
+    line-height: 30px;
+    font-weight: 400;
+    text-transform: none;
+    color: #fff;
+}
+.footer .navbar-nav li a{
+    display: block;
+    font-size: 1.4rem;
+    line-height: 26px;
+    font-weight: 500;
+    text-transform: none;
+    font-style: normal;
+    color: #fff;
+}
+.footer .navbar-nav li a:hover{
+    color: #4297d2;
+}
+.footer .navbar-nav li a.active,
+.footer .navbar-nav li a.active:hover{
+    color: #f59d01;
+    font-weight: 400;
+}
+.footer-bottom{
+    border-top: 1px solid #81b850;
+    padding: 2rem 0;
+    margin-top: 2.5rem;
+}
+.footer-bottom p{
+    font-size: 1.4rem;
+    line-height: 27px;
+    font-weight: 500;
+    text-transform: none;
+    font-style: normal;
+    color: #fff;
+    margin: 0;
+}
+/* 
+====================================
+FOOTER SECTION END
+====================================
+*/
+
+

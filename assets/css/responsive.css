@@ -1,0 +1,697 @@
+
+@media screen and (max-width : 1199px){
+/* 
+====================================
+    NAVBAR SECTION START
+====================================
+*/
+.header-nav .navbar-brand img{
+    width: 200px;
+}
+.header-nav #mynav > ul > li > a{
+    font-size: 1.4rem;
+    padding: 1rem 1rem;
+
+}
+
+
+/* 
+====================================
+    NAVBAR SECTION END
+====================================
+*/
+
+
+/* 
+====================================
+ SERVICES SECTION START
+====================================
+*/
+.service-section .owl-nav button.owl-prev{
+    left: -40px;
+}
+.service-section .owl-nav button.owl-next{
+    right: -40px;
+}
+
+/* 
+====================================
+ SERVICES SECTION END
+====================================
+*/
+}
+
+
+@media screen and (max-width: 991px){
+*{
+    font-size: 52.5%;
+}
+
+
+/* 
+====================================
+    NAVBAR SECTION START
+====================================
+*/
+.header-nav{
+    background-color: #fff;
+}
+
+.header-nav button span{
+    font-size: 3rem;
+}
+.header-nav #mynav > ul > li > a{
+    display: block;
+    padding: 6rem .5rem;
+    font-size: 1.4rem;
+    color: #333333;
+    padding: 1rem 1.8rem;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    background-color: #fff;
+    font-weight: 500;
+}
+.drop{
+    width: 100%;
+
+}
+.drop > i{
+    float: right;
+    margin-top: 5px;
+
+}
+
+.header-nav #mynav  ul  li  a.p-btn-link{
+    display: block;
+    margin: 5px 0;
+    text-align: center;
+    
+}
+
+
+.header-nav #mynav  ul li.dropdown .dropdown-menu{
+    margin-left : 15px;
+    width: calc(100% - 15px);
+    padding: 0;
+    background-color: #fff;
+   
+}
+
+.header-nav #mynav  ul  li.dropdown:hover .dropdown-menu ul li a{
+
+    color: #333333;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+/* 
+====================================
+    NAVBAR SECTION END
+====================================
+*/
+
+
+
+
+/* 
+====================================
+   HEADER CONTENT SECTION START
+====================================
+*/
+.header{
+    padding-top: 0rem;
+}
+.header-content{
+    margin-top: 3rem;
+    padding-top: 5rem;
+}
+
+.header-content .header-text h1{
+    font-size: 4.5rem;
+
+
+}
+.header-content .header-text p{
+    width: 90%;
+}
+
+/* 
+====================================
+   HEADER CONTENT SECTION END
+====================================
+*/
+
+/* 
+====================================
+  HEADER COUNTER SECTION START
+====================================
+*/
+.header-counter-wrap{
+    background: linear-gradient(to right, #1b3d6b 0%,#6cc0d9 47%,#6cc0d9 58%,#f59d01 100%);
+    border-radius: 2rem;
+    box-shadow: 0px 30px 30px rgb(0 0 0 / 20%);
+    padding: 1.5rem;
+    transform: translateY(80px);
+}
+
+.header-counter-wrap .counter-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.header-counter-wrap .counter-box span{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.header-counter-wrap .counter-box .devider{
+    position: relative;
+    width: 100%;
+    height: 0px;
+    border-top: 1px solid #fff;
+    margin: 2rem 0;
+}
+.header-counter-wrap .counter-box .devider:after{
+    content: "";
+    width: 15px;
+    height: 10px;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+}
+.header-counter-wrap .counter-box h5{
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 0 .5rem;
+}
+/* 
+====================================
+  HEADER COUNTER SECTION END
+====================================
+*/
+
+
+
+/* 
+====================================
+ ABOUT US SECTION START
+====================================
+*/
+
+.about-content{
+    width: 100%;
+    margin: auto;
+}
+
+.aboutUs .about-text{
+    width: 100%;
+}
+.aboutUs .about-text p{
+    font-size: 1.8rem;
+}
+
+   
+/* 
+====================================
+ ABOUT US SECTION END
+====================================
+*/
+
+
+/* 
+====================================
+ TAB SECTION START
+====================================
+*/
+.tab-section{
+    margin-top: 300px;
+}
+
+
+.tab-section .tab ul li button{
+    font-size: 1.8rem;
+    padding: 3rem 0.5rem;
+ 
+}
+
+/* 
+====================================
+ TAB SECTION END
+====================================
+*/
+
+/* 
+====================================
+INDUSTRY SECTION START
+====================================
+*/
+
+.industry-section .industry-detail .industry-detail-box .i-d-img img{
+    width: 100px;
+ 
+}
+
+.industry-section .industry-detail .industry-detail-box h3{
+    font-size: 2rem;
+
+}
+/* 
+====================================
+INDUSTRY SECTION END
+====================================
+*/
+
+
+}
+
+
+@media screen and (max-width: 767px){
+
+/* 
+====================================
+  HEADER COUNTER SECTION START
+====================================
+*/
+
+.header-counter-wrap .counter-box span{
+    font-size: 1.8rem;
+}
+
+.header-counter-wrap .counter-box .devider{
+
+    margin: 1.5rem 0;
+}
+.header-counter-wrap .counter-box .devider:after{
+    width: 10px;
+    height: 6px;
+ 
+}
+
+.header-counter-wrap .counter-box h5{
+    font-size: 1.3rem;
+    padding: 0 .3rem;
+}
+/* 
+====================================
+  HEADER COUNTER SECTION END
+====================================
+*/
+
+/* 
+====================================
+ ABOUT US SECTION START
+====================================
+*/
+
+
+.aboutUs .section-heading h2{
+    color: #fff;
+    font-size: 4rem;
+}
+
+/* 
+====================================
+ ABOUT US SECTION END
+====================================
+*/
+/* 
+====================================
+ SERVICES SECTION START
+====================================
+*/
+
+
+
+.service-section .section-heading h2{
+    font-size: 5rem;
+}
+.service-section .section-heading p{
+    font-size: 1.8rem;
+}
+
+.service-section .service-cards{
+    position: relative;
+    width: 80%;
+    margin: auto;
+}
+
+/* 
+====================================
+ SERVICES SECTION END
+====================================
+*/
+
+
+/* 
+====================================
+ CUSTOMER SECTION START
+====================================
+*/
+
+
+.customer .customer-content h2{
+    font-size: 4rem;
+}
+
+.customer-review .customer-box-content .customer-box-text{
+    width: 80vw;
+}
+/* 
+====================================
+ CUSTOMER SECTION END
+====================================
+*/
+
+
+/* 
+====================================
+ TAB SECTION START
+====================================
+*/
+.tab-section .tab ul{
+    align-items: stretch;
+}
+
+.tab-section .tab ul li button{
+    height: 100%;
+    font-size: 1.8rem;
+    padding: .5rem 0.5rem;
+
+}
+
+
+.tab-text img{
+    width: 110%;
+    margin-top: 2rem;
+}
+
+/* 
+====================================
+ TAB SECTION END
+====================================
+*/
+
+/* 
+====================================
+PARTNER SECTION START
+====================================
+*/
+.partner{
+    background-color: #f0f7fb;
+    padding: 4rem 0;
+}
+.partner .section-header{
+    width: 90%;
+    margin: 2rem  auto;
+}
+.partner .section-header h2{
+    font-size: 4rem;
+
+}
+
+
+
+
+.partner-slider.owl-carousel .owl-nav button.owl-prev{
+    left: -40px;
+}
+.partner-slider.owl-carousel .owl-nav button.owl-next{
+    right: -40px;
+}
+
+
+/* 
+====================================
+PARTNER SECTION END
+====================================
+*/
+/* 
+====================================
+INDUSTRY SECTION START
+====================================
+*/
+
+
+
+.industry-section .section-header h2{
+    font-size: 4rem;
+}
+
+
+
+.industry-section .industry-detail .industry-detail-box .i-d-img img{
+    width: 70px;
+    border-radius: 50%;
+}
+
+.industry-section .industry-detail .industry-detail-box h3{
+    font-size: 1.5rem;
+}
+/* 
+====================================
+INDUSTRY SECTION END
+====================================
+*/
+
+/* 
+====================================
+CONTACT SECTION START
+====================================
+*/
+
+.contact-section .section-header h2{
+    font-size: 4rem;
+}
+
+.contact-section .section-header p{
+    width: 100%;
+}
+
+.contact-us label em{
+    transform: translateY(-2px);
+}
+/* 
+====================================
+CONTACT SECTION END
+====================================
+*/
+
+
+}
+
+@media screen and (max-width: 575px){
+
+*{
+    font-size: 45.5%;
+}
+
+/* 
+====================================
+ TAB SECTION START
+====================================
+*/
+
+.tab-section .tab ul{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    border-top: 3px solid #1f2a5e;
+}
+.tab-section .tab ul li{
+    width: calc(100%);
+    display: block;
+    border-bottom: 1px solid #a8d6ee;
+
+
+
+}
+
+.tab-section .tab ul li button{
+    padding: 2rem 0.5rem;
+    display: block;
+    border-bottom: 1px solid #a8d6ee;
+
+
+
+
+}
+.tab-text{
+    text-align: center;
+    padding: 1rem 2rem;
+}
+.tab-text img{
+    width: 60vw;
+    text-align: center;
+}
+
+.tab-text p{
+    font-size: 2rem;
+}
+
+
+/* 
+====================================
+ TAB SECTION END
+====================================
+*/
+
+/* 
+====================================
+PARTNER SECTION START
+====================================
+*/
+.partner .section-header{
+    width: 90%;
+}
+
+.partner .section-header p{
+    font-size: 2rem;
+}
+.partner-slider{
+    width: 80%;
+    margin: 3rem auto;
+}
+
+
+.partner-slider.owl-carousel .owl-nav button.owl-prev{
+    left: -30px;
+}
+.partner-slider.owl-carousel .owl-nav button.owl-next{
+    right: -30px;
+}
+
+
+/* 
+====================================
+PARTNER SECTION END
+====================================
+*/
+
+/* 
+====================================
+INDUSTRY SECTION START
+====================================
+*/
+
+.industry-section .section-header{
+    width: 100%;
+  
+}
+
+
+.industry-section .section-header p{
+    font-size: 2rem;
+}
+
+.industry-section .industry-detail .industry-detail-box:first-child .i-d-img:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 8px;
+    height: 8px;
+    background: #0f6fa3;
+    border: 2px solid #0b174f;
+    border-radius: 50%;
+}
+.industry-section .industry-detail .industry-detail-box:last-child .i-d-img:before{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 8px;
+    height: 8px;
+    background: #0f6fa3;
+    border: 2px solid #0b174f;
+    border-radius: 50%;
+}
+.industry-section .industry-detail .industry-detail-box .i-d-img:after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 2px;
+    background: #0b174f;
+    z-index: -1;
+}
+.industry-section .industry-detail .industry-detail-box .i-d-img img{
+    width: 12vw;
+    border-radius: 50%;
+}
+
+.industry-section .industry-detail .industry-detail-box h3{
+    font-size: 2.8vw;
+}
+/* 
+====================================
+INDUSTRY SECTION END
+====================================
+*/
+
+/* 
+====================================
+CONTACT SECTION START
+====================================
+*/
+
+.contact-section .section-header p{
+    font-size: 2rem;
+}
+
+
+.contact-us label{
+    font-size: 1.8rem;
+}
+.contact-us label em{
+    font-size: 2rem;
+}
+
+
+.form-agree p{
+    font-size: 1.79rem;
+
+}
+/* 
+====================================
+CONTACT SECTION END
+====================================
+*/
+
+
+/* 
+====================================
+FOOTER SECTION START
+====================================
+*/
+.footer{
+    text-align: center;
+}
+
+.footer h5{
+    font-size: 2.4rem;
+}
+.footer p{
+    font-size: 1.8rem;
+}
+.footer .navbar-nav li a{
+    font-size: 1.8rem;
+}
+
+.footer-bottom p{
+    font-size: 1.8rem;
+}
+/* 
+====================================
+FOOTER SECTION END
+====================================
+*/
+
+}
